@@ -16,16 +16,17 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 * Machine Learning Model 1:
   * Description of Model 1 Accuracy, Precision, and Recall scores.
-
+- Talk about the balance and how the recall score for category 1 was lesser
 
 
 * Machine Learning Model 2:
   * Description of Model 2 Accuracy, Precision, and Recall scores.
+- How the recall score for category 1 increased
 
 ## Summary
 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
 * Which one seems to perform best? How do you know it performs best?
 * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-
+- Overall, Model 2 is recommended because it takes into account data that has been oversampled from the minority category, hence more representative and balanced.
 If you do not recommend any of the models, please justify your reasoning.
