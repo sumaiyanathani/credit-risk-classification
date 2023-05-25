@@ -9,25 +9,19 @@ The second model that was created took into account the unbalanced data within t
 
 ## Results
 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
-
 * Machine Learning Model 1:
   * Description of Model 1 Accuracy, Precision, and Recall scores.
-
--- Talk about the balance and how the recall score for category 1 was lesser
+     a. This model had a balanced accuracy score of 0.95. 
+     b. The precision score for the healthy loan category was 1.00 whereas the precision score for the high-risk loan category was 0.85
+     c. The recall score for the healthy loan category was 0.99 whereas the recall score for the high-risk loan category was 0.91
 
 
 * Machine Learning Model 2:
   * Description of Model 2 Accuracy, Precision, and Recall scores.
-
--- How the recall score for category 1 increased
+     a. This model had a balanced accuracy score of 0.99. 
+     b. The precision score for the healthy loan category was 1.00 whereas the precision score for the high-risk loan category was 0.84
+     c. The recall score for the healthy loan category was 0.99 whereas the recall score for the high-risk loan category was 0.99
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-
--- Overall, Model 2 is recommended because it takes into account data that has been oversampled from the minority category, hence more representative and balanced.
-
-If you do not recommend any of the models, please justify your reasoning.
+Overall, it seems like model 2 had a higher balanced accuracy score (0.99) than model 1 (0.95), a 4% increase. Model 2 also had a higher recall score for the high risk loan category (0.91) than model 1 (0.85), a 7% increase. However, model 2 had a precision score of 0.84 which is a 1% decrease from model 1 for the high-risk loan category. There were no differences in the precision and recall scores of the healthy loan predictions between either of the models. This is because oversampling was performed in model 2 which increased the data points for the high-risk loan category and balanced the dataset and reduced the bias. Model 2 is recommended because it takes into account data that has been oversampled from the minority category, hence making it more representative. Recall score is the ratio of correctly predicted positive observations to all predicted observations for that class. The increased recall-score for the high-risk loan category means that all individuals who fall into this category will be identified along with some individuals that belong to the healthy loan category, which would be a better outcome than being unable to identify and granting loans to individuals who belong to the high-risk loan category. Hence, in this case, it is better to have high recall scores for predicting the high-risk loan category as opposed to high precision scores.
