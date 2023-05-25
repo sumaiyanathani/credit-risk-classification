@@ -11,16 +11,17 @@ The second model that was created took into account the unbalanced data within t
 
 * Machine Learning Model 1:
   * Description of Model 1 Accuracy, Precision, and Recall scores.
+
      * This model had a balanced accuracy score of 0.95. 
      * The precision score for the healthy loan category was 1.00 whereas the precision score for the high-risk loan category was 0.85
      * The recall score for the healthy loan category was 0.99 whereas the recall score for the high-risk loan category was 0.91
 
-
 * Machine Learning Model 2:
   * Description of Model 2 Accuracy, Precision, and Recall scores.
-     a. This model had a balanced accuracy score of 0.99. 
-     b. The precision score for the healthy loan category was 1.00 whereas the precision score for the high-risk loan category was 0.84
-     c. The recall score for the healthy loan category was 0.99 whereas the recall score for the high-risk loan category was 0.99
+
+     * This model had a balanced accuracy score of 0.99. 
+     * The precision score for the healthy loan category was 1.00 whereas the precision score for the high-risk loan category was 0.84
+     * The recall score for the healthy loan category was 0.99 whereas the recall score for the high-risk loan category was 0.99
 
 ## Summary
 
